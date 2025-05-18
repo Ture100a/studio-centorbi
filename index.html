@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio Architettura Salvatore Centorbi</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Studio Architettura Salvatore Centorbi</h1>
+      <p>Eleganza. Funzionalità. Sostenibilità.</p>
+    </div>
+  </header>
+
+  <section id="chi-siamo">
+    <div class="container">
+      <h2>Chi siamo</h2>
+      <p>
+        Lo Studio Architettura Salvatore Centorbi nasce con l’obiettivo di coniugare estetica, funzionalità e sostenibilità.  
+        Operiamo con passione e precisione in ogni fase del progetto: dalla concezione iniziale alla realizzazione esecutiva.  
+        Grazie a un approccio integrato e alla collaborazione con professionisti qualificati, offriamo soluzioni complete per il settore residenziale, commerciale e HO.RE.CA., seguendo ogni dettaglio per trasformare le idee in spazi concreti e distintivi.
+      </p>
+    </div>
+  </section>
+
+  <section id="servizi">
+    <div class="container">
+      <h2>Servizi</h2>
+      <ul class="servizi-lista">
+        <li>Progettazione architettonica</li>
+        <li>Progettazione strutturale</li>
+        <li>Interior design</li>
+        <li>Direzione lavori</li>
+        <li>Coordinamento della sicurezza</li>
+        <li>Relazione energetica ex Legge 10</li>
+        <li>Pratiche catastali</li>
+        <li>Attestati di prestazione energetica (APE)</li>
+        <li>Pratiche S.U.A.P.</li>
+        <li>Modellazione 3D e rendering</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="immagini/progetto1.jpg" alt="Progetto 1" />
+          <h3>Villa Moderna</h3>
+          <p>Progetto residenziale con linee pulite e ampie vetrate.</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="immagini/progetto2.jpg" alt="Progetto 2" />
+          <h3>Ristorante Contemporaneo</h3>
+          <p>Spazio HO.RE.CA. pensato per esaltare la luce naturale e il comfort.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contatti">
+    <div class="container">
+      <h2>Contatti</h2>
+      <p>Per informazioni, richieste o preventivi, compila il modulo qui sotto oppure scrivici ai recapiti indicati.</p>
+
+      <form action="https://formspree.io/f/tuo-id" method="POST" class="form-contatti">
+        <label for="nome">Nome*</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">Email*</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="messaggio">Messaggio*</label>
+        <textarea id="messaggio" name="messaggio" rows="6" required></textarea>
+
+        <button type="submit">Invia</button>
+      </form>
+
+      <div class="info-contatto">
+        <p>Email: <a href="mailto:info@studio-centorbi.it">info@studio-centorbi.it</a></p>
+        <p>Telefono: <a href="tel:+391234567890">+39 123 456 7890</a></p>
+        <p>Indirizzo: Via Esempio 12, Augusta (SR)</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
